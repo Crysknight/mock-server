@@ -20,6 +20,7 @@ app.post('/api/login', (req, res) => routes.login(req, res));
 app.get('/api/login', (req, res) => routes.login(req, res));
 
 app.get('/greenlife/press', (req, res) => routes.greenlife.press(req, res));
+app.post('/greenlife/feedback', (req, res) => routes.greenlife.feedback(req, res));
 
 
 app.listen(80);
