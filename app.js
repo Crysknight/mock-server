@@ -22,6 +22,8 @@ app.get('/api/login', (req, res) => routes.login(req, res));
 app.get('/greenlife/press', (req, res) => routes.greenlife.press(req, res));
 app.post('/greenlife/feedback', (req, res) => routes.greenlife.feedback(req, res));
 
+app.get('/as-team/locations', (req, res) => routes.asTeam.locations(req, res));
+
 
 app.listen(80);
 
