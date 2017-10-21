@@ -8,7 +8,8 @@ module.exports = (req, res) => {
 				additional: 'ВАО, Сокольники, доступно 5 экранов',
 				lat: 55.766542,
 				lng: 37.619446,
-				sort_order: 1
+				sort_order: 1,
+				photos: true
 			},
 			{
 				id: 1,
@@ -17,7 +18,8 @@ module.exports = (req, res) => {
 				additional: 'ВАО, Сокольники, доступен 1 экран',
 				lat: 55.789157,
 				lng: 37.668677,
-				sort_order: 2
+				sort_order: 2,
+				photos: false
 			},
 			{
 				id: 2,
@@ -26,7 +28,8 @@ module.exports = (req, res) => {
 				additional: 'ВАО, Сокольники, доступно 2 экрана',
 				lat: 55.746064,
 				lng: 37.404985,
-				sort_order: 3
+				sort_order: 3,
+				photos: true
 			},
 			{
 				id: 12,
@@ -35,7 +38,8 @@ module.exports = (req, res) => {
 				additional: '',
 				lat: 55.715816,
 				lng: 37.529021,
-				sort_order: 4
+				sort_order: 4,
+				photos: true
 			},
 			{
 				id: 13,
@@ -44,7 +48,8 @@ module.exports = (req, res) => {
 				additional: 'ВАО, Сокольники, доступно 2 экрана',
 				lat: 55.736993,
 				lng: 37.530384,
-				sort_order: 5
+				sort_order: 5,
+				photos: true
 			}
 		]);
 	}, 50);
