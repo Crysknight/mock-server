@@ -6,7 +6,9 @@ let greenlife = {
 };
 
 let asTeam = {
-	locations: require('./as-team/locations')
+	locations: require('./as-team/locations'),
+	photos: require('./as-team/photos'),
+	form: require('./as-team/form')
 };
 
 module.exports = {

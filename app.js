@@ -23,6 +23,8 @@ app.get('/greenlife/press', (req, res) => routes.greenlife.press(req, res));
 app.post('/greenlife/feedback', (req, res) => routes.greenlife.feedback(req, res));
 
 app.get('/as-team/locations', (req, res) => routes.asTeam.locations(req, res));
+app.get('/as-team/photos/*', (req, res) => routes.asTeam.photos(req, res));
+app.post('/as-team/form', (req, res) => routes.asTeam.form(req, res));
 
 
 app.listen(80);
